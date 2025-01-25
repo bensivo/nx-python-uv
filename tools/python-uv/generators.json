@@ -4,6 +4,11 @@
       "factory": "./dist/generators/application",
       "schema": "./dist/generators/schema.json",
       "description": "application generator"
+    },
+    "library": {
+      "factory": "./dist/generators/library",
+      "schema": "./dist/generators/schema.json",
+      "description": "library generator"
     }
   }
 }

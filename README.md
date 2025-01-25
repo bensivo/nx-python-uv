@@ -16,9 +16,15 @@ This plugin was developed using these versions:
 
 
 ## Usage
-Run the generator
+TODO: add this plugin to your workspace (need to create the init generator)
+
+
+Generate an application
 ```
 npx nx g @bensivo/python-uv:application myapp
 ```
 
-
+Generate a library
+```
+npx nx g @bensivo/python-uv:library mylib
+```
