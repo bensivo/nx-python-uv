@@ -15,4 +15,10 @@ This plugin was developed using these versions:
 - nx - 20.3.3
 
 
+## Usage
+Run the generator
+```
+npx nx g @bensivo/python-uv:application myapp
+```
+
 
