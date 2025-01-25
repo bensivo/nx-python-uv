@@ -27,6 +27,9 @@ export async function applicationGenerator (tree: Tree, options: ApplicationGene
   );
   generateFiles(tree, path.join(__dirname, 'files/application'), projectRoot, options);
   await formatFiles(tree);
+
+  // TODO: Do we have to update the root pyproject.toml for this? It seems like things work just fine without 
+  // adding them to the workspace, as long as nobody tries to import them.
 }
 
 export default applicationGenerator;

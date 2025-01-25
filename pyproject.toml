@@ -1,11 +1,16 @@
 [project]
-name = "bensivo"
+name = "nx-python-uv"
 version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [ "mylib" ]
 
+[tool]
 [tool.uv]
-sources = {}
+[tool.uv.sources]
+[tool.uv.sources.mylib]
+workspace = true
 
 [tool.uv.workspace]
-members = ["*"]
+members = [ "", "libs/mylib" ]

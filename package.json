@@ -27,6 +27,7 @@
     "tools/*"
   ],
   "dependencies": {
-    "@nx/devkit": "20.3.3"
+    "@nx/devkit": "20.3.3",
+    "smol-toml": "^1.3.1"
   }
 }

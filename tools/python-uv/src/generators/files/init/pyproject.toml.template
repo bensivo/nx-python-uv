@@ -1,11 +1,14 @@
 [project]
 name = "<%= name %>"
 version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [  ]
 
 [tool.uv]
 sources = {}
 
 [tool.uv.workspace]
-members = ["*"]
+members = [""]
+

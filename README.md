@@ -16,13 +16,12 @@ This plugin was developed using these versions:
 
 
 ## Usage
-TODO: add this plugin to your workspace (need to create the init generator)
+TODO: Instructions on adding this plugin to your NX project
 
-Run the 'init' generator. This sets up the uv workspace
+Run the 'init' generator. This creates the base pyproject.toml at the root of the workspace
 ```
 npx nx g @bensivo/python-uv:init 
 ```
-
 
 Generate an application
 ```
