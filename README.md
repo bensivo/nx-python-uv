@@ -18,6 +18,11 @@ This plugin was developed using these versions:
 ## Usage
 TODO: add this plugin to your workspace (need to create the init generator)
 
+Run the 'init' generator. This sets up the uv workspace
+```
+npx nx g @bensivo/python-uv:init 
+```
+
 
 Generate an application
 ```

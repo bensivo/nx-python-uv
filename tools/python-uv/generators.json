@@ -9,6 +9,11 @@
       "factory": "./dist/generators/library",
       "schema": "./dist/generators/schema.json",
       "description": "library generator"
+    },
+    "init": {
+      "factory": "./dist/generators/init",
+      "schema": "./dist/generators/schema.json",
+      "description": "init generator"
     }
   }
 }

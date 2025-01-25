@@ -23,6 +23,8 @@ export async function libraryGenerator (tree: Tree, options: LibraryGeneratorSch
   );
   generateFiles(tree, path.join(__dirname, 'files/library'), projectRoot, options);
   await formatFiles(tree);
+
+  // update pyproject.toml
 }
 
 export default libraryGenerator;
